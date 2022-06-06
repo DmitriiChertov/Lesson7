@@ -6,7 +6,7 @@ public class Main {
         System.out.println();
         String firsrName = "Семён" + " ";
         String middleName = "Семёнович" + " ";
-        String lastName = "Семёнов" + " ";
+        String lastName = "Иванов" + " ";
         String fullName = firsrName + middleName + lastName;
         fullName = fullName.replace("ё", "е");
         String uppFullName = fullName.toUpperCase();
