@@ -2,8 +2,6 @@ import java.sql.SQLOutput;
 
 public class Main {
     public static void main(String[] args) {
-
-        System.out.println();
         String firsrName = "Семён" + " ";
         String middleName = "Семёнович" + " ";
         String lastName = "Иванов" + " ";
@@ -13,6 +11,5 @@ public class Main {
         System.out.println();
         System.out.println("Данные ФИО сотрудника - " + fullName);
         System.out.println(uppFullName);
-
     }
 }
